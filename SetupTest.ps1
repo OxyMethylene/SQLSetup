@@ -6,10 +6,10 @@ function Start-Executable {
     param (
         [Parameter(Mandatory = $false)]
         #[ValidateScript({ Test-Path $_ -PathType Leaf -Include "*.ini" })]
-        [string]$configPath = "C:\SQLServer\SQLServer2017Media\Developer_ENU\SqlServerInstallConfig.ini",
+        [string]$configPath,
         [Parameter(Mandatory = $false)]
         #[ValidateScript({ Test-Path $_ -PathType Leaf -Include "setup.exe" })]
-        [string]$setupEXEPath = "C:\SQLServer\SQLServer2017Media\Developer_ENU\SETUP.EXE"
+        [string]$setupEXEPath
     )
 
     DynamicParam { 
