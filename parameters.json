@@ -1,0 +1,824 @@
+{
+    "Parameters": [
+        {
+            "Parameter": "ACTION",
+            "Type": "String",
+            "isMandatory": true,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ADDCURRENTUSERASSQLADMIN",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "AGTDOMAINGROUP",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "AGTSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": true,
+            "Group": "SQL_Agent"
+        },
+        {
+            "Parameter": "AGTSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": true,
+            "Group": "SQL_Agent"
+        },
+        {
+            "Parameter": "AGTSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ALLINSTANCES",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASBACKUPDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASCOLLATION",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASCONFIGDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASDATADIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASLOGDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASPROVIDERMSOLAP",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASSERVERMODE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASSYSADMINACCOUNTS",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASTELSVCACCT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASTELSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASTELSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ASTEMPDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "BROWSERSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTCTLRNAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTRESULTDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLTWORKINGDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CLUSTERPASSIVE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "COMMFABRICENCRYPTION",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "COMMFABRICNETWORKLEVEL",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "COMMFABRICPORT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CONFIGURATIONFILE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CONFIRMIPDEPENDENCYCHANGE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CTLRSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CTLRSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CTLRSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "CTLRUSERS",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ENABLERANU",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ENU",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "UpdateEnabled",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "UpdateSource",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "EXTSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "EXTSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FAILOVERCLUSTERDISKS",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FAILOVERCLUSTERGROUP",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FAILOVERCLUSTERIPADDRESSES",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FAILOVERCLUSTERNETWORKNAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FAILOVERCLUSTERROLLOWNERSHIP",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FEATURES",
+            "Type": "STRING[]",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FILESTREAMLEVEL",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FILESTREAMSHARENAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FTSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FTSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "FTUPGRADEOPTION",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "HELP",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "IACCEPTPYTHONLICENSETERMS",
+            "Type": "BOOLEAN",
+            "isMandatory": true,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "IACCEPTROPENLICENSETERMS",
+            "Type": "BOOLEAN",
+            "isMandatory": true,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "IACCEPTRSUNINSTALL",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "IACCEPTSQLSERVERLICENSETERMS",
+            "Type": "BOOLEAN",
+            "isMandatory": true,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INDICATEPROGRESS",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INSTALLSHAREDDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INSTALLSHAREDWOWDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INSTALLSQLDATADIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "INSTANCEDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INSTANCEID",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "INSTANCENAME",
+            "Type": "String",
+            "isMandatory": true,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "ISMASTERSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISMASTERSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISMASTERSVCPORT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISMASTERSVCSSLCERTCN",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISMASTERSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISMASTERSVCTHUMBPRINT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISTELSVCACCT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISTELSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISTELSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISWORKERSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISWORKERSVCCERT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISWORKERSVCMASTER",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISWORKERSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ISWORKERSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "MATRIXCMBRICKCOMMPORT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "MATRIXCMSERVERNAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "MATRIXNAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "MRCACHEDIRECTORY",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "NPENABLED",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "PBDMSSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "PBDMSSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "PBDMSSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "PBENGSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "PolyBase"
+        },
+        {
+            "Parameter": "PBENGSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "PolyBase"
+        },
+        {
+            "Parameter": "PBENGSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "PolyBase"
+        },
+        {
+            "Parameter": "PBPORTRANGE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "PolyBase"
+        },
+        {
+            "Parameter": "PBSCALEOUT",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "PolyBase"
+        },
+        {
+            "Parameter": "PID",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "SQL"
+        },
+        {
+            "Parameter": "QUIET",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "QUIETSIMPLE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "ROLE",
+            "Type": "STRING[]",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RSCATALOGSERVERINSTANCENAME",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RSINSTALLMODE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RSSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RSSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RSSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "RULES",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SAPWD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SECURITYMODE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLBACKUPDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLCOLLATION",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLSVCACCOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLSVCINSTANTFILEINIT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLSYSADMINACCOUNTS",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTELSVCACCT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTELSVCPASSWORD",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTELSVCSTARTUPTYPE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBFILECOUNT",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBFILEGROWTH",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBFILESIZE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBLOGDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBLOGFILEGROWTH",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLTEMPDBLOGFILESIZE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLUSERDBDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SQLUSERDBLOGDIR",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "SUPPRESSPRIVACYSTATEMENTNOTI",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "TCPENABLED",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "UIMODE",
+            "Type": "BOOLEAN",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "USEMICROSOFTUPDATE",
+            "Type": "String",
+            "isMandatory": false,
+            "Group": "GLOBAL"
+        },
+        {
+            "Parameter": "INTEGER",
+            "Type": "Int",
+            "isMandatory": true,
+            "Group": "_Test",
+            "ValidateSet": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Parameter": "BOOL",
+            "Type": "Boolean",
+            "isMandatory": false,
+            "Group": "_Test",
+            "ValidateSet": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+}
